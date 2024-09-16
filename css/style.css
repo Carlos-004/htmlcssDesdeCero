@@ -1,0 +1,60 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: papayawhip;
+}
+.titulo{
+    color: #00eaff;
+}
+#sub-titulo{
+    font-size: 20px;
+    color: #ff7300;
+}
+h3{
+    color: #3fe90b;
+    font-size: 25px;
+}
+p{
+    color: #80006f;
+}
+button[type="submit"]{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+[type="submit"]:hover{
+    background-color: red;
+}
+
+.lista-de-cat{
+    color: chocolate;
+    list-style:none;
+}
+.img-cat{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+div{
+    background-color: aqua;
+    padding: 20px;
+}
+#list-cat-odian{
+    color: #df1717;
+    font-size: 20px;
+    list-style:inside;
+}
+form{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+small a[href="https://www.freecodecamp.org/"]{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+}

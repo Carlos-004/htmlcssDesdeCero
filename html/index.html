@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App De Gatos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Esta es una pagina de gatos -->
+    <h1 class="titulo">App De Gatos</h1>
+    
+    <main>
+        <h2 id="sub-titulo">Imagenes de Gatos:</h2>
+        <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/" target="_blank">imágenes de gatos</a></p>
+
+
+        <a href="https://www.pexels.com/es-es/buscar/img%20de%20gatos/" target="_blank">
+            <img src="https://bit.ly/fcc-relaxing-cat" alt="un lindo cat" class="img-cat">
+        </a><hr>
+
+        <h3>Lista de Gasto</h3>
+
+        <div>
+            <p>Cosas que los cat <em>aman</em>:</p>
+            <ul class="lista-de-cat">
+                <li>Menta gatuna</li>
+                <li>Apuntadores Laser</li>
+                <li><s>Lasaña</s></li>
+            </ul>
+
+            <img src="../img/lasaña.jpg" alt="lasaña">
+
+            <p>Cosas que los cat <strong>odian</strong>:</p>
+            <ol id="list-cat-odian">
+                <li>Tratamientos antipulgas</li>
+                <li>Truenos</li>
+                <li>Otros gatos</li>
+            </ol>
+            <img src="../img/cat.jpg" alt="" class="img-cat">
+        </div>  
+
+        <form action="" method="post"> 
+
+            <label for="interior"><input type="radio" name="interior-exterior" id="interior" value="interior" checked> Interior</label><br>
+
+            <label for="exterior"><input type="radio" name="interior-exterior" id="exterior" value="exterior"> Exterior</label><br>
+
+            <label for="carinoso"><input type="checkbox" name="personalidad" id="carinoso" value="carinoso" checked> Cariñoso</label>
+            <label for="perezoso"><input type="checkbox" name="personalidad" id="perezoso" value="perezoso"> Perezoso</label>
+            <label for="energico"><input type="checkbox" name="personalidad" id="energico" value="energico"> Enérgico</label><br>
+
+            <input type="text" name="" id="" placeholder="Nombre" required><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><small>Sin Derecho de Autor - <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp.org</a></small></p>
+        
+    </footer>
+</body>
+</html>
